@@ -1,0 +1,10 @@
+# configs/apps.yaml
+jwt:
+  secret: "QHL9lQj4G4cbrM2cmXHl+I+6Nj886Gv+MdvfdWXP88JRwHIPULih4HAiFZ+137Gl" # 开发用密钥
+  expire_hours: 24
+
+mysql:
+  dsn: "gorm:gorm1234!@tcp(127.0.0.1:3306)/gorm?charset=utf8&parseTime=True&loc=Local"
+
+server:
+  post: "3306"
